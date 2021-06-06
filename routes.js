@@ -8,4 +8,7 @@ module.exports = function(app){
 
     app.route('/datamahasiswa')
         .get(jsonku.datamahasiswa)
+
+    app.route('/datamahasiswa/:id')
+        .get(jsonku.datamahasiswaid)
 }
